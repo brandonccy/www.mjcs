@@ -240,10 +240,14 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/brandonchong/www.mjcs"
+		"/Users/brandonchong/www.mjcs",
+		"/Users/brandonchong/www.mjcs/pages",
+		"/Users/brandonchong/www.mjcs/pages/home"
 	],
 	"file_history":
 	[
+		"/Users/brandonchong/www.mjcs/pages/home/page.json",
+		"/Users/brandonchong/www.mjcs/.htaccess",
 		"/Users/brandonchong/webbycms/README.md",
 		"/Users/brandonchong/webbycms/pages/home/index.php",
 		"/Users/brandonchong/webbycms/.htaccess",
@@ -369,9 +373,7 @@
 		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/admincp/modules/report/balancesheet.php",
 		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/bms/json/loadAreaNameAjax.php",
 		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/bms/themes/default/customer/add.php",
-		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/bms/common/functions.php",
-		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/bms/themes/default/customer/feedback.php",
-		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/bms/themes/default/index.php"
+		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/bms/common/functions.php"
 	],
 	"find":
 	{
