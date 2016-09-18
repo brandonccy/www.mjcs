@@ -9,12 +9,15 @@
             <div class="well well-sm">
                 <form class="form-horizontal" method="post">
                     <fieldset>
+                        
                         <legend class="text-center header">Contact us</legend>
+                        
                         <div class="form-group">
                             <div class="col-md-10 col-md-offset-1">
                                 <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
                             </div>
                         </div>
+
                         <div class="form-group">
                             <div class="col-md-10 col-md-offset-1">
                                 <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
@@ -57,7 +60,6 @@
                         <div>
                         No. 64-1, Jalan Mutiara Barat 6,<br> Taman Taynton View,<br> Cheras 56000 Kuala Lumpur<br>
                         </div>
-
                     </div>
                     <br><br>
                     <div class="text-center">
