@@ -1,5 +1,5 @@
-<div class="row">
-    <div class="col-md-12">
+<div class="container-fluid">
+    <div class="row">
         <div id="carousel-example" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="item">
@@ -16,7 +16,6 @@
         </div>
     </div>
 </div>
-
 <style>
 .main-text {
     position: absolute;

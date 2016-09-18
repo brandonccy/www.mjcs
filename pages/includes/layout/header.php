@@ -8,4 +8,11 @@
       <a class="nav-link" href="/contact-us">Contact</a>
     </li>
   </ul>
+
+  <ul class="nav navbar-nav pull-right">
+    <li class="nav-item">
+      <a class="nav-link btn btn-warning" href="#" data-toggle="modal" data-target="#myModal">Book Our Service</a>
+    </li>
+  </ul>
+
 </nav>

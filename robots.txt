@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: 
+Disallow: /admincp/
+
+Sitemap: http://www.brandhex.com/sitemap.xml
