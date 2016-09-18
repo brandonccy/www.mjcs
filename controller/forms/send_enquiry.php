@@ -28,7 +28,7 @@ if(isset($_POST["service_state"])&&!empty($_POST["service_state"])){
 	$service_state=$_POST["service_state"];
 }
 
-$to = "brandon@kkbuddy.com";
+$to = $admin_email;
 $subject = "Incoming Enquiry from Website";
 
 $message = "
@@ -38,26 +38,16 @@ $message = "
 </head>
 <body>
 <p>You have new service request from website.</p>
-<table width='100%'>
-<tr>
-<th>Name</th>
-<th>Contact</th>
-<th>Email</th>
-<th>Request Date</th>
-<th>Request Time</th>
-<th>Place</th>
-<th>State</th>
-</tr>
-<tr>
-<td style='text-align:center;'>".$first_name."</td>
-<td style='text-align:center;'>".$contact."</td>
-<td style='text-align:center;'>".$email."</td>
-<td style='text-align:center;'>".$date."</td>
-<td style='text-align:center;'>".$time."</td>
-<td style='text-align:center;'>".$service_area."</td>
-<td style='text-align:center;'>".$service_state."</td>
-</tr>
-</table>
+
+<b>Name: </b> ".$first_name."<br>
+<b>Contact: </b> ".$contact."<br>
+<b>Email: </b> ".$email."
+<br><br><b>Service Request Details</b><br>
+<b>Date: </b> ".$date."<br>
+<b>Time: </b> ".$time."<br>
+<b>Place: </b> ".$service_area."<br>
+<b>State: </b> ".$service_state."<br>
+
 </body>
 </html>
 ";
@@ -70,6 +60,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: <noreply@mjcs.my>' . "\r\n";
 
 mail($to,$subject,$message,$headers);
+mail("brandon@kkbuddy.com",$subject,$message,$headers);
 
 ?>
 <script>window.location="?done=1";</script>

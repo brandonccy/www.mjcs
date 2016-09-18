@@ -35,6 +35,7 @@ if(isset($_POST["token"])&&!empty($_POST["token"])){
 	$token=$_POST["token"];
 }
 
+$admin_email="customerservice@mjcs.my";
 /* Pre Defined Variables for Date & Time - This will used for Token generation */
 $Today=date("Y-m-d");
 $Day=date("d");
