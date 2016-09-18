@@ -5,14 +5,14 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.42/js/bootstrap-datetimepicker.min.js"></script>
 <script type="text/javascript">
 var tomorrow = new Date();
-tomorrow.setDate(tomorrow.getDate() + 1);
+tomorrow.setDate(tomorrow.getDate() + 3);
 $('#date').datetimepicker({
 	format: 'DD MMMM YYYY',
     minDate: tomorrow
 });
 
 var timeStart = new Date();
-timeStart.setDate(timeStart.getDate() + 1);
+timeStart.setDate(timeStart.getDate() + 3);
 $('#time').datetimepicker({
 	format: 'LT'
 });

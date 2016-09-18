@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"na",
+				"first_name"
+			],
+			[
 				"is_Nu",
 				"is_numeric"
 			],
@@ -207,6 +211,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "controller/forms/send_enquiry.php",
+			"settings":
+			{
+				"buffer_size": 2052,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "controller/forms/contact_us.php",
+			"settings":
+			{
+				"buffer_size": 1419,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "pages/contact-us/contents.php",
+			"settings":
+			{
+				"buffer_size": 4205,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "controller/define.php",
+			"settings":
+			{
+				"buffer_size": 1074,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -241,13 +277,38 @@
 	"expanded_folders":
 	[
 		"/Users/brandonchong/www.mjcs",
+		"/Users/brandonchong/www.mjcs/controller",
+		"/Users/brandonchong/www.mjcs/controller/forms",
+		"/Users/brandonchong/www.mjcs/includes",
 		"/Users/brandonchong/www.mjcs/pages",
-		"/Users/brandonchong/www.mjcs/pages/home"
+		"/Users/brandonchong/www.mjcs/pages/about-us",
+		"/Users/brandonchong/www.mjcs/pages/contact-us",
+		"/Users/brandonchong/www.mjcs/pages/home",
+		"/Users/brandonchong/www.mjcs/pages/includes",
+		"/Users/brandonchong/www.mjcs/pages/includes/layout",
+		"/Users/brandonchong/www.mjcs/pages/thank-you"
 	],
 	"file_history":
 	[
-		"/Users/brandonchong/www.mjcs/pages/home/page.json",
 		"/Users/brandonchong/www.mjcs/.htaccess",
+		"/Users/brandonchong/www.mjcs/includes/htmlstart.php",
+		"/Users/brandonchong/www.mjcs/pages/includes/layout/modals.php",
+		"/Users/brandonchong/www.mjcs/controller/forms/send_enquiry.php",
+		"/Users/brandonchong/www.mjcs/includes/javascripts.php",
+		"/Users/brandonchong/www.mjcs/pages/thank-you/page.json",
+		"/Users/brandonchong/www.mjcs/pages/contact-us/page.json",
+		"/Users/brandonchong/www.mjcs/pages/thank-you/contents.php",
+		"/Users/brandonchong/www.mjcs/pages/includes/layout/footer.php",
+		"/Users/brandonchong/www.mjcs/pages/about-us/index.php",
+		"/Users/brandonchong/www.mjcs/pages/home/contents.php",
+		"/Users/brandonchong/www.mjcs/pages/includes/layout/header.php",
+		"/Users/brandonchong/www.mjcs/pages/contact-us/contents.php",
+		"/Users/brandonchong/www.mjcs/pages/thank-you/index.php",
+		"/Users/brandonchong/www.mjcs/pages/home/index.php",
+		"/Users/brandonchong/www.mjcs/pages/contact-us/index.php",
+		"/Users/brandonchong/www.mjcs/pages/includes/layout/menu.php",
+		"/Users/brandonchong/www.mjcs/pages/about-us/page.json",
+		"/Users/brandonchong/www.mjcs/pages/home/page.json",
 		"/Users/brandonchong/webbycms/README.md",
 		"/Users/brandonchong/webbycms/pages/home/index.php",
 		"/Users/brandonchong/webbycms/.htaccess",
@@ -356,24 +417,7 @@
 		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/bms/json/loadCustomerForm.php",
 		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/bms/cron.php",
 		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/bms/themes/default/customer/edit.php",
-		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/common/functions.php",
-		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/admincp/modules/report/includes/trialsheet.php",
-		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/admincp/modules/report/trialsheet.php",
-		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/admincp/modules/report/includes/trialsheet_body.php",
-		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/admincp/modules/report/print.php",
-		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/admincp/themes/report.php",
-		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/admincp/themes/menu/menu.php",
-		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/admincp/index.php",
-		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/admincp/modules/report/includes/profitloss.php",
-		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/getDataFromBMS.php",
-		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/admincp/modules/chart/chart.php",
-		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/admincp/modules/chart/expenses.php",
-		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/admincp/modules/chart/ledger_header.php",
-		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/admincp/modules/chart/ledger.php",
-		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/admincp/modules/report/balancesheet.php",
-		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/bms/json/loadAreaNameAjax.php",
-		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/bms/themes/default/customer/add.php",
-		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/bms/common/functions.php"
+		"/Users/brandonchong/Google Drive/Production/09 Accounting System/Website(Scripts)/common/functions.php"
 	],
 	"find":
 	{
@@ -511,8 +555,123 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "controller/forms/send_enquiry.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2052,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								2052
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "controller/forms/contact_us.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1419,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								404,
+								404
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "pages/contact-us/contents.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4205,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								691,
+								701
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 76.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "controller/define.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1074,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								608,
+								608
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 69.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],

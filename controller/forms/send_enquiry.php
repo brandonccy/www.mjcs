@@ -62,5 +62,30 @@ $headers .= 'From: <noreply@mjcs.my>' . "\r\n";
 mail($to,$subject,$message,$headers);
 mail("brandon@kkbuddy.com",$subject,$message,$headers);
 
+$subject="Thanks for sending in inquery.";
+$message='
+<html>
+<head>
+<title>Enquiry Details</title>
+</head>
+<body>
+<p>
+Hi '.$first_name.'<br>
+Thanks for sending us your request.<br>
+We will get back to your very soon.<br>
+</p>
+
+<br><br><b>Your Service Request Details</b><br>
+<b>Date: </b> '.$date.'<br>
+<b>Time: </b> '.$time.'<br>
+<b>Place: </b> '.$service_area.'<br>
+<b>State: </b> '.$service_state.'<br>
+
+</body>
+</html>
+';
+
+mail($email,$subject,$message,$headers);
+
 ?>
 <script>window.location="?done=1";</script>

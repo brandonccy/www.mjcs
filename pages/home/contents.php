@@ -9,7 +9,7 @@
                         <p>
                             We are one of the top cleaning service provider in Klang Valley. <br>
                         </p>
-                        <p><a class="btn btn-clear btn-lg btn-min-block" href="#" style="background-color:#6699CC;" data-toggle="modal" data-target="#myModal">Send Enquiry Now</a></p>
+                        <p class="visible-lg show-only-lg"><a class="btn btn-clear btn-lg btn-min-block " href="#" style="background-color:#6699CC;" data-toggle="modal" data-target="#myModal">Send Enquiry Now</a></p>
                     </div>
                 </div>
             </div>
@@ -17,6 +17,11 @@
     </div>
 </div>
 <style>
+.show-only-lg{display:block;}
+@media (max-width: 580px) {
+    .display-4{font-size:24px;}
+    .show-only-lg{display:none;}
+}
 .main-text {
     position: absolute;
     top: 50px;
@@ -138,7 +143,7 @@
                 <p> Projects </p>
             </div>
             <div class="image-block col-sm-4" style="background: url(http://www.mjcs.my/images/gallery/8/12096494_886128121478035_7749046716395239975_n.jpg) no-repeat center top;background-size:cover;">
-                <p> Projects </p>
+                <p> Grand Opening </p>
             </div>
             <div class="image-block col-sm-4" style="background: url(http://www.mjcs.my/images/gallery/8/12122823_886128278144686_7214578594852405937_n.jpg) no-repeat center top;background-size:cover;">
                 <p> Grand Opening </p>
@@ -146,8 +151,8 @@
             <div class="image-block col-sm-8" style="background: url(http://www.mjcs.my/images/gallery/7/IMG_0922.JPG) no-repeat center top;background-size:cover;">
                 <p> Projects </p>
             </div>
-            <div class="image-block col-sm-4" style="background: url(http://www.mjcs.my/images/sliders/2/t_2.jpg) no-repeat center top;background-size:cover;">
-                <p> Projects </p>            
+            <div class="image-block col-sm-4" style="background: url(http://www.mjcs.my/images/sliders/2/t_2.jpg) no-repeat center top;background-size:cover;cursor:pointer;" data-toggle="modal" data-target="#myModal">
+                <p> Promotion </p>            
             </div>
         </div>
     </div>

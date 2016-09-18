@@ -7,20 +7,15 @@
     <div class="row">
         <div class="col-md-6">
             <div class="well well-sm">
-                <form class="form-horizontal" method="post">
+                <form action="" class="form-horizontal" method="post">
+                <input type="hidden" name="form" value="contact_us">
                     <fieldset>
                         
                         <legend class="text-center header">Contact us</legend>
                         
                         <div class="form-group">
                             <div class="col-md-10 col-md-offset-1">
-                                <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="col-md-10 col-md-offset-1">
-                                <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                                <input id="first_name" name="first_name" type="text" placeholder="Full Name" class="form-control">
                             </div>
                         </div>
 
@@ -38,7 +33,7 @@
 
                         <div class="form-group">
                             <div class="col-md-10 col-md-offset-1">
-                                <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="7"></textarea>
+                                <textarea class="form-control" id="message" name="message" placeholder="Enter your message for us here. We will get back to you within 2 business days." rows="7"></textarea>
                             </div>
                         </div>
 

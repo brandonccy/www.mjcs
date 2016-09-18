@@ -37,12 +37,12 @@
                             </div>
 
                             <div class="row">
-                                <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="col-sm-6">
                                     <div class="form-group">
                                         <input type="text" name="service_area" required="required" id="service_area" class="form-control input-sm" placeholder="Place eg: Taman Jaya">
                                     </div>
                                 </div>
-                                <div class="col-xs-6 col-sm-6 col-md-6">
+                                <div class="col-sm-6">
                                     <div class="form-group">
                                         <input type="text" name="service_state" required="required" id="service_state" class="form-control input-sm" placeholder="State eg: Cheras, Kuala Lumpur">
                                     </div>
