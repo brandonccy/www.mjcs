@@ -14,8 +14,7 @@ $('#date').datetimepicker({
 var timeStart = new Date();
 timeStart.setDate(timeStart.getDate() + 1);
 $('#time').datetimepicker({
-	format: 'LT',
-    minDate: timeStart
+	format: 'LT'
 });
 </script>
 <style>
