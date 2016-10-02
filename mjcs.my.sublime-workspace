@@ -61,7 +61,7 @@
 			],
 			[
 				"onc",
-				"onclick	Attr"
+				"onclick\tAttr"
 			],
 			[
 				"border",
@@ -145,11 +145,11 @@
 			],
 			[
 				"onkey",
-				"onkeyup	Attr"
+				"onkeyup\tAttr"
 			],
 			[
 				"cl",
-				"class	Attr"
+				"class\tAttr"
 			],
 			[
 				"new",
@@ -177,7 +177,7 @@
 			],
 			[
 				"ac",
-				"action	Attr"
+				"action\tAttr"
 			],
 			[
 				"sel",
@@ -193,7 +193,7 @@
 			],
 			[
 				"c",
-				"class	Attr"
+				"class\tAttr"
 			],
 			[
 				"left",
@@ -245,8 +245,6 @@
 	"expanded_folders":
 	[
 		"/Users/brandonchong/www.mjcs",
-		"/Users/brandonchong/www.mjcs/controller",
-		"/Users/brandonchong/www.mjcs/controller/forms",
 		"/Users/brandonchong/www.mjcs/includes",
 		"/Users/brandonchong/www.mjcs/pages",
 		"/Users/brandonchong/www.mjcs/pages/about-us",
@@ -258,6 +256,7 @@
 	],
 	"file_history":
 	[
+		"/Users/brandonchong/www.mjcs/pages/contact-us/contents.php",
 		"/Users/brandonchong/www.mjcs/controller/define.php",
 		"/Users/brandonchong/www.mjcs/test.php",
 		"/Users/brandonchong/www.mjcs/controller/forms/send_enquiry.php",
@@ -265,7 +264,6 @@
 		"/Users/brandonchong/www.mjcs/pages/home/contents.php",
 		"/Users/brandonchong/www.mjcs/includes/javascripts.php",
 		"/Users/brandonchong/www.mjcs/pages/includes/layout/modals.php",
-		"/Users/brandonchong/www.mjcs/pages/contact-us/contents.php",
 		"/Users/brandonchong/www.mjcs/controller/forms/contact_us.php",
 		"/Users/brandonchong/www.mjcs/.htaccess",
 		"/Users/brandonchong/www.mjcs/pages/thank-you/page.json",

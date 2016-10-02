@@ -15,25 +15,25 @@
                         
                         <div class="form-group">
                             <div class="col-md-10 col-md-offset-1">
-                                <input id="first_name" name="first_name" type="text" placeholder="Full Name" class="form-control">
+                                <input id="first_name" name="first_name" type="text" required="required" placeholder="Full Name" class="form-control">
                             </div>
                         </div>
 
                         <div class="form-group">
                             <div class="col-md-10 col-md-offset-1">
-                                <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                                <input id="email" name="email" type="text" required="required" placeholder="Email Address" class="form-control">
                             </div>
                         </div>
 
                         <div class="form-group">
                             <div class="col-md-10 col-md-offset-1">
-                                <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                                <input id="phone" name="phone" type="text" required="required" placeholder="Phone" class="form-control">
                             </div>
                         </div>
 
                         <div class="form-group">
                             <div class="col-md-10 col-md-offset-1">
-                                <textarea class="form-control" id="message" name="message" placeholder="Enter your message for us here. We will get back to you within 2 business days." rows="7"></textarea>
+                                <textarea class="form-control" id="message" required="required" name="message" placeholder="Enter your message for us here. We will get back to you within 2 business days." rows="7"></textarea>
                             </div>
                         </div>
 
