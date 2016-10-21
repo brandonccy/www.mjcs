@@ -211,6 +211,42 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "pages/includes/layout/modals.php",
+			"settings":
+			{
+				"buffer_size": 3715,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/htmlstart.php",
+			"settings":
+			{
+				"buffer_size": 1409,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "includes/javascripts.php",
+			"settings":
+			{
+				"buffer_size": 675,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.php",
+			"settings":
+			{
+				"buffer_size": 467,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -245,6 +281,11 @@
 	"expanded_folders":
 	[
 		"/Users/brandonchong/www.mjcs",
+		"/Users/brandonchong/www.mjcs/assets",
+		"/Users/brandonchong/www.mjcs/assets/js",
+		"/Users/brandonchong/www.mjcs/assets/sweetalert",
+		"/Users/brandonchong/www.mjcs/controller",
+		"/Users/brandonchong/www.mjcs/controller/forms",
 		"/Users/brandonchong/www.mjcs/includes",
 		"/Users/brandonchong/www.mjcs/pages",
 		"/Users/brandonchong/www.mjcs/pages/about-us",
@@ -256,15 +297,15 @@
 	],
 	"file_history":
 	[
+		"/Users/brandonchong/www.mjcs/controller/forms/send_enquiry.php",
+		"/Users/brandonchong/www.mjcs/controller/forms/contact_us.php",
 		"/Users/brandonchong/www.mjcs/pages/contact-us/contents.php",
 		"/Users/brandonchong/www.mjcs/controller/define.php",
 		"/Users/brandonchong/www.mjcs/test.php",
-		"/Users/brandonchong/www.mjcs/controller/forms/send_enquiry.php",
 		"/Users/brandonchong/www.mjcs/includes/htmlstart.php",
 		"/Users/brandonchong/www.mjcs/pages/home/contents.php",
 		"/Users/brandonchong/www.mjcs/includes/javascripts.php",
 		"/Users/brandonchong/www.mjcs/pages/includes/layout/modals.php",
-		"/Users/brandonchong/www.mjcs/controller/forms/contact_us.php",
 		"/Users/brandonchong/www.mjcs/.htaccess",
 		"/Users/brandonchong/www.mjcs/pages/thank-you/page.json",
 		"/Users/brandonchong/www.mjcs/pages/contact-us/page.json",
@@ -523,8 +564,125 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "pages/includes/layout/modals.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3715,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3250,
+								3250
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 603.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "includes/htmlstart.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								848,
+								795
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "includes/javascripts.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 675,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								666,
+								666
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 467,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								375,
+								375
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],

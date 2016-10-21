@@ -14,7 +14,7 @@
                         <p>Give your request details and we will send you our best quotation.
                     </div>
                     <div class="panel-body">
-                        <form role="form" action="/thank-you" method="post">
+                        <form role="form" action="/thank-you" method="post" id="formSubmit">
                         <input type="hidden" name="form" value="send_enquiry">
                             <div class="form-group">
                                 <input type="text" name="first_name" id="first_name" required="required" class="form-control input-sm" placeholder="Full Name">
@@ -62,3 +62,28 @@
 
   </div>
 </div>
+<script type="text/javascript">
+$('#formSubmit').submit(function(ev) {
+    showFormSubmit();
+});
+function showFormSubmit(){
+    swal({
+        title: "Processing...",   
+        text: "Please wait while we sending your request.",
+        showConfirmButton: false 
+    });
+}
+
+var tomorrow = new Date();
+tomorrow.setDate(tomorrow.getDate() + 3);
+$('#date').datetimepicker({
+    format: 'DD MMMM YYYY',
+    minDate: tomorrow
+});
+
+var timeStart = new Date();
+timeStart.setDate(timeStart.getDate() + 3);
+$('#time').datetimepicker({
+    format: 'LT'
+});
+</script>
